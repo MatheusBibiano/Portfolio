@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.itemContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.listItems {
+  list-style-type: none;
+  display: flex;
+}
+
+/* button styles */
+
+.controlButton {
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  height: 4rem;
+  width: auto;
+  background-color: transparent;
+  border: none;
+  filter: drop-shadow(0rem 0rem 0.3rem rgba(0, 0, 0, 0.2));
+}
+
+.controlButton:active {
+  filter: opacity(0.5) drop-shadow(0rem 0rem 1rem rgba(0, 0, 0, 0.2));
+}
+
+.controlIcon {
+  font-size: 4rem;
+  color: var(--primary);
+}

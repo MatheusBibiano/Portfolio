@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: var(--font);
+  min-height: 12rem;
+  max-width: 30rem;
+}
+
+.title {
+  font-size: 1.6rem;
+}
+
+.location {
+  font-size: 1.4rem;
+  filter: opacity(0.8);
+}
+
+.dateContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  filter: opacity(0.6);
+  line-height: 1.6rem;
+}
+
+.calendarIcon {
+  margin-right: 0.5rem;
+}

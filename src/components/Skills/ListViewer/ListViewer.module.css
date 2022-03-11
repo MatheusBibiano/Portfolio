@@ -1,0 +1,66 @@
+.viewer {
+  display: flex;
+  flex-direction: column;
+  border: 0.2rem solid var(--header-bg);
+  border-radius: 0.3rem;
+  box-shadow: 0.5rem 0.5rem 1rem var(--box-shadow),
+    -0.5rem -0.5rem 1rem var(--box-shadow);
+}
+
+.viewerHeader {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  color: var(--font);
+}
+
+.viewerHeader > svg:first-child {
+  font-size: 4rem;
+  color: var(--primary);
+  margin-right: 1rem;
+}
+
+.viewerHead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.viewerTitle {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.viewerDesc {
+  font-size: 1.6rem;
+  filter: opacity(0.6);
+}
+
+/* Arrow button */
+
+.arrowIcon {
+  font-size: 2.4rem;
+  color: var(--primary);
+  margin-left: 10rem;
+  transition: transform 0.3s;
+}
+
+/* Viewer content */
+
+.listSkills {
+  display: none;
+  flex-direction: column;
+  list-style-type: none;
+  font-size: 1.8rem;
+  padding: 0 0.5rem;
+  background-color: var(--header-bg);
+}
+
+.listSkills li {
+  padding: 0.5rem 0;
+}

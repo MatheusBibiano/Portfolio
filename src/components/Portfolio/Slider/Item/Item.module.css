@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1rem;
+}
+
+.itemImage {
+  align-self: center;
+  object-fit: cover;
+  height: 30rem;
+  max-width: 50rem;
+  filter: drop-shadow(0 0 1rem rgba(0, 0, 0, 0.1));
+  border-radius: 0.3rem;
+  margin-right: 5rem;
+  border: solid 0.1rem rgba(0, 0, 0, 0.02);
+}
+
+.itemContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.title {
+  font-size: 1.8rem;
+  color: var(--font);
+}
+
+.desc {
+  font-size: 1.6rem;
+  color: var(--font);
+  margin: 1rem 0;
+  filter: opacity(0.6);
+}
+
+/* button styles */
+
+.linkButton {
+  width: 15rem;
+}

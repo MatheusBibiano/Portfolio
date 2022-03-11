@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 7%;
+}
+
+.space {
+  flex: .8;
+  border: solid 0.1rem var(--primary);
+  border-radius: 0.2rem;
+}

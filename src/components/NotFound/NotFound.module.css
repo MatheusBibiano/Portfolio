@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30rem;
+  color: var(--font);
+  
+}
+
+.icon {
+  font-size: 6.4rem;
+  margin-right: 2.4rem;
+  color: var(--primary);
+}
+
+.errorMessage {
+  font-weight: bold;
+  font-size: 5rem;
+}

@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.container > svg:first-child {
+  font-size: 3rem;
+  color: var(--primary);
+  margin-right: 1rem;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-style: normal;
+}
+
+.infoContainer span {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.infoContainer p {
+  font-size: 1.6rem;
+  filter: opacity(0.8);
+}

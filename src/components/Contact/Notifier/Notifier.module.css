@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+
+  font-size: 1.8rem;
+  color: var(--font-hover);
+
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--primary);
+
+  box-shadow: 0rem 0rem 0.5rem var(--primary);
+}
+
+.closeButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-left: 2rem;
+  font-size: 2.4rem;
+  color: var(--font-hover);
+  border: none;
+  background-color: transparent;
+}

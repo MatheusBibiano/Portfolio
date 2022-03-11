@@ -1,0 +1,15 @@
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card img {
+  height: auto;
+  max-width: 45rem;
+  margin-bottom: 3rem;
+  object-fit: cover;
+  border: solid 0.2rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
+}

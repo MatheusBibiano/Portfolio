@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 7% 12% 0 12%;
+  color: var(--font);
+}
+
+.title {
+  font-size: 4rem;
+}
+
+.subtitle {
+  font-size: 1.6rem;
+  font-weight: normal;
+  filter: opacity(0.8);
+}
+
+.timeLineContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 5rem;
+}
+
+/* Header time line */
+
+.timeLineHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  color: var(--font);
+  filter: opacity(0.8);
+  margin: 0 2rem;
+}
+
+.optionsIcon {
+  font-size: 3rem;
+  margin-right: 0.5rem;
+}
+
+.optionsActive {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  color: var(--primary);
+  filter: opacity(0.8);
+  margin: 0 2rem;
+}
+
+/* Grid */
+
+.gridContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

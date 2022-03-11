@@ -1,0 +1,91 @@
+.container {
+  flex: 1;
+  display: flex;
+  align-items: center;  
+  padding: 15% 12% 0 12%;
+}
+
+/* Social links style*/
+
+.socialMediaList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+}
+
+.socialLinkContainer {
+  margin: 1rem;
+}
+
+.socialLink {
+  text-decoration: none;
+}
+
+.socialIcons {
+  font-size: 3rem;
+  color: var(--font);
+  transition: all 0.2s;
+}
+
+.socialLinkContainer:hover .socialIcons {
+  color: var(--primary);
+}
+
+/* Presentation style */
+
+.presentationContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 3%;
+}
+
+.presentTitle {
+  font-size: 4rem;
+  color: var(--font);
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.subtitleContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.presentSubtitle {
+  font-size: 2rem;
+  color: var(--font);
+  font-weight: normal;
+  filter: opacity(0.8);
+}
+
+.subtitleIcon {
+  font-size: 2rem;
+  color: var(--font);
+  margin-left: 1rem;
+  filter: opacity(0.8);
+}
+
+.presentDesc {
+  font-size: 1.6rem;
+  color: var(--font);
+  margin-bottom: 3rem;
+  filter: opacity(0.6);
+}
+
+/* button style */
+
+.contactmeButton {
+  width: 20rem;
+}
+
+/* Image styles */
+
+.ownerImg {
+  background-color: var(--primary);
+  max-width: 50vh;
+  max-height: 50vh;
+  border-radius: 50%;
+  filter: drop-shadow(0rem 0rem 0.5rem rgba(0, 0, 0, 0.2));
+}
