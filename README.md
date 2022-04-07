@@ -73,7 +73,7 @@ Arquivo .env
     }
 ```
 
-4. Por fim, execute a aplicação:
+6. Por fim, execute a aplicação:
 
 * Linux & Windows
 ```bash
